@@ -100,7 +100,8 @@ fun HomeScreen(navController: NavController) {
                 modifier = Modifier.padding(10.dp),
                 shape = RoundedCornerShape(20.dp),
                 elevation = CardDefaults.cardElevation(10.dp)
-            ){navController.navigate(ROUTE_ABOUT)
+            ){navController.navigate(ROUTE_ABOUT
+            )
                 Box(modifier = Modifier.height(100.dp)
                 ){
                     Image(painter = painterResource(id = R.drawable.earth), contentDescription = "tech")
